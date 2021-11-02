@@ -7,4 +7,4 @@ def index(request):
 
 
 def produtos(request):
-    return HttpResponse("<html><body><h1>produto1</h1><h2>Produto2</h2><h3>Produto3</h3></body></html>")
+    return HttpResponse("<html><body><h1>Produtos</h1><h1>produto1</h1><h2>Produto2</h2><h3>Produto3</h3></body></html>")
